@@ -45,11 +45,11 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   cursor: pointer;
   background-color: var(--bg-color-light);
   color: var(--title-text-color-dark);
 }
+
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
@@ -67,11 +67,12 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
+
 .logo-left {
   color: var(--accent-color);
 }
+
 .logo-right {
   color: var(--logo-right);
 }
@@ -80,40 +81,32 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--title-text-color-light);
   background-color: var(--bg-color-dark);
 }
+
 .btn-heroe {
   font-weight: 900;
   font-size: 16px;
   line-height: 1.87;
-
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-
   color: var(--title-text-color-light);
   background-color: var(--accent-color);
 }
+
 .title-section {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--title-text-color-dark);
 }
+
 .text-section {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--text-color-main);
 }
 
 .title-page {
@@ -121,8 +114,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
-
   color: var(--title-text-color-dark);
 }
 
@@ -131,17 +122,13 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-
   color: var(--title-text-color-dark);
 }
+
 .text-card {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--text-color-main);
 }
 
 /* Галерея портфолио */
@@ -150,17 +137,13 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
   color: var(--title-text-color-dark);
 }
 
 .desc-card {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--text-color-main);
 }
-
-:current(a) {
-  background: yellow;
+.current {
+  color: var(--accent-color);
 }
